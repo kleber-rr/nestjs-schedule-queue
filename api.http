@@ -1,0 +1,10 @@
+GET http://localhost:3000/tweets-rest-api
+
+
+###
+POST http://localhost:3000/tweets-rest-api
+Content-Type: application/json
+
+{
+    "text": "This is a tweet"
+}
